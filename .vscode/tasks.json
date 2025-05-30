@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "C:\\msys64\\mingw64\\bin\\g++.exe",  // Usa g++ de MSYS2
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-lcurl",  // Solo esto, sin -I ni -L manuales
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}

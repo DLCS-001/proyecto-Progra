@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/CHAMALE/Desktop/Codigo en C++/proyecto",
-      "program": "c:/Users/CHAMALE/Desktop/Codigo en C++/proyecto/build/Debug/outDebug",
+      "cwd": "c:/Users/CHAMALE/Downloads/Compressed/PROYECTO-PROGRAMACION-main/PROYECTO-PROGRAMACION-main",
+      "program": "c:/Users/CHAMALE/Downloads/Compressed/PROYECTO-PROGRAMACION-main/PROYECTO-PROGRAMACION-main/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
